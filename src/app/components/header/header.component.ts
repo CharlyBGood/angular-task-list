@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  title:string = 'Lista de tareas';
+  title:string = 'Task List';
 
 }
