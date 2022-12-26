@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
-  title:string = 'Task List';
+  title: string = 'Task List';
 
+  toggleAddTask() {
+    alert('clickeaste wach');
+  }
 }
