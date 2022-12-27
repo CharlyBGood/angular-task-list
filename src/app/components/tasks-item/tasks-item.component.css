@@ -1,8 +1,9 @@
 .task {
-  background-color: aquamarine;
+  background-color: #deece1;
   margin: 1em;
   padding: 0.5em 1em;
   cursor: pointer;
+  user-select: none;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,5 +17,7 @@
 }
 
 .task.reminder {
-  border-left: 5px solid firebrick;
+  border-left: 5px solid #ff9100;
+  border-right: 5px solid #ff9100;
+  padding: 1.3em;
 }
