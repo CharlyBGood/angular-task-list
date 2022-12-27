@@ -1,0 +1,10 @@
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: aliceblue;
+  letter-spacing: .2em;
+}

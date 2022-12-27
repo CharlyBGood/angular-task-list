@@ -1,28 +1,10 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Terminar de hacer la tarea de Angular",
-      "day": "Enero 5 a las 12:00",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Revisar y practicar Javascript",
-      "day": "Enero 5 a las 15:00",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Revisar y practicar React!!",
-      "day": "Enero 5 a las 18:00",
-      "reminder": false
-    },
-    {
-      "id": 4,
-      "text": "Publicar y compartir mi sitio web!!",
-      "day": "Enero 5 a las 18:00",
-      "reminder": false
+      "text": "Terminar la tarea de Angular",
+      "day": "27/12/2022",
+      "reminder": false,
+      "id": 1
     }
   ]
 }
