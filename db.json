@@ -3,8 +3,26 @@
     {
       "text": "Terminar la tarea de Angular",
       "day": "27/12/2022",
-      "reminder": false,
+      "reminder": true,
       "id": 1
+    },
+    {
+      "text": "Practicar Javascript",
+      "day": "28/12/2022",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "Continuar con React",
+      "day": "28/12/2022",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Terminar Sitio Web",
+      "day": "29/12/2022",
+      "reminder": false,
+      "id": 4
     }
   ]
 }
