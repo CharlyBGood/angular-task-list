@@ -2,7 +2,7 @@
   "tasks": [
     {
       "id": 1,
-      "text": "Termnar de hacer la tarea de Angular",
+      "text": "Terminar de hacer la tarea de Angular",
       "day": "Enero 5 a las 12:00",
       "reminder": true
     },
@@ -13,13 +13,13 @@
       "reminder": true
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Armar secciones en react!",
       "day": "Enero 5 a las 18:00",
       "reminder": false
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "Compartir mi sitio web",
       "day": "Enero 5 a las 21:00",
       "reminder": false
