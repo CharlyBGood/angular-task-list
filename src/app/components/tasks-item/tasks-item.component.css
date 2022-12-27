@@ -1,0 +1,20 @@
+.task {
+  background-color: aquamarine;
+  margin: 1em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.task h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task.reminder {
+  border-left: 5px solid firebrick;
+}
