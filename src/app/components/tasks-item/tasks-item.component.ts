@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { TASKS } from 'src/app/mock-tasks';
 import { Task } from 'src/app/Task';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -10,10 +10,12 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class TasksItemComponent {
   @Input() task: Task = TASKS[0];
+  @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter();
   faTimes = faTimes;
   color = "red"
 
-  onClick() {
-    alert("sure you want to delete entrie?")
+  onDelete(task: Task) {
+    console.log(task)
+    this.onDeleteTask.emit(task)
   }
 }

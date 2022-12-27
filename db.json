@@ -14,14 +14,14 @@
     },
     {
       "id": 3,
-      "text": "Armar secciones en react!",
+      "text": "Revisar y practicar React!!",
       "day": "Enero 5 a las 18:00",
       "reminder": false
     },
     {
       "id": 4,
-      "text": "Compartir mi sitio web",
-      "day": "Enero 5 a las 21:00",
+      "text": "Publicar y compartir mi sitio web!!",
+      "day": "Enero 5 a las 18:00",
       "reminder": false
     }
   ]
