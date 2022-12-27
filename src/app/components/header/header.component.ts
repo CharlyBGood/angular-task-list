@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   title: string = 'Task List';
+  color:string = "#000110"
 
   toggleAddTask() {
     alert('clickeaste wach');
