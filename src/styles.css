@@ -1,4 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
 @font-face {
   font-family: "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
@@ -10,18 +11,22 @@
   padding: 0;
 }
 body {
-  font-family: sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
   font-size: 16px;
 }
 
 .container {
-  max-width: 500px;
-  margin: 1.2em auto;
-  overflow: auto;
-  min-height: 300px;
-  border: 1px solid steelblue;
-  padding: 1.8em;
+  /* overflow: auto; */
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 1em auto;
+  width: 65%;
+  padding: .5em;
+  border: 3px solid #e9e9e9;
   border-radius: .5em;
+  margin-bottom: 5em;
 }
 
 .btn {
@@ -29,8 +34,7 @@ body {
   background: #000;
   color: #fff;
   border: none;
-  padding: .8em 1.1em;
-  margin: .4em;
+  padding: .8em 1em;
   border-radius: .4em;
   cursor: pointer;
   text-decoration: none;
@@ -50,23 +54,24 @@ body {
 .btn:active {
   transform: scale(0.98);
 }
-.btn-block {
+/* .btn-block {
   display: block;
+  width: 100%;
+} */
+
+.form-control {
+  margin: 1.2em auto;
   width: 100%;
 }
 
-.form-control {
-  margin: 1.2em 0;
-}
-
-.form-control label {
+/* .form-control label {
   display: block;
-}
+} */
 
 .form-control input {
   width: 100%;
-  height: 2.1em;
-  margin: .5em;
+  /* height: 2.1em; */
+  /* margin: .5em; */
   padding: .2em .6em;
   font-size: 1.1em;
 }
@@ -78,11 +83,22 @@ body {
 }
 
 .form-control-check label {
-  flex: 1;
+  flex: 2;
+  text-align: center;
 }
 
 .form-control-check input {
-  flex: 2;
+  flex: 1;
   cursor: pointer;
   height: 1em;
+}
+
+/* html, body { height: 100%; } */
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+@media screen and (max-width: 800px)  {
+  .container {
+    width: 100%;
+    border: none;
+  }
 }

@@ -1,9 +1,12 @@
 .task {
-  background-color: #deece1;
+  background-color: #f3f3f3;
   margin: 1em;
   padding: 0.5em 1em;
   cursor: pointer;
   user-select: none;
+  width: 75%;
+  margin: 1em auto;
+  border-radius: .5em;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,4 +23,10 @@
   border-left: 5px solid #ff9100;
   border-right: 5px solid #ff9100;
   padding: 1.3em;
+}
+
+@media screen and (max-width: 800px)  {
+  .task {
+    width: 100%;
+  }
 }

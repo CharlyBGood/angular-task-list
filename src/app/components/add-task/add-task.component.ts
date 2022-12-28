@@ -3,6 +3,7 @@ import { Subscription } from 'rxjs';
 import { Task } from 'src/app/Task';
 import { UiService } from 'src/app/services/ui.service';
 
+
 @Component({
   selector: 'app-add-task',
   templateUrl: './add-task.component.html',
@@ -10,7 +11,7 @@ import { UiService } from 'src/app/services/ui.service';
 })
 export class AddTaskComponent {
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
-  mark: string = 'Remind me this one!!';
+  mark: string = 'Mark as important!';
 
   text: string = '';
   day: string = '';

@@ -4,14 +4,38 @@
     <input type="text" name="text" id="text" [(ngModel)]="text" />
   </div>
   <div class="form-control">
-    <label for="text">Day & Time</label>
-    <input
+    <label for="text">
+      <mat-hint>DD/MM/AAAA</mat-hint>
+    </label>
+    <!-- <input
+      matInput
+      [matDatepicker]="picker"
+      type="text"
+      name="day"
+      [(ngModel)]="day"
+    /> -->
+    <div class="datepickerStyle">
+      <input
+        matInput
+        [matDatepicker]="picker"
+        type="text"
+        name="day"
+        [(ngModel)]="day"
+      />
+      <mat-datepicker-toggle
+        matIconSuffix
+        [for]="picker"
+      ></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </div>
+
+    <!-- <input
       type="text"
       name="day"
       id="day"
       placeholder="Add Day & Time"
       [(ngModel)]="day"
-    />
+    /> -->
   </div>
 
   <div class="form-control form-control-check">

@@ -1,3 +1,13 @@
 .add-form {
-  margin-bottom: 1.6em;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: .5em auto;
+  padding: .5em;
+}
+
+.datepickerStyle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
