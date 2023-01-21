@@ -23,12 +23,6 @@
       "day": "29/12/2022",
       "reminder": false,
       "id": 4
-    },
-    {
-      "text": "Task",
-      "day": "2022-12-17T03:00:00.000Z",
-      "reminder": true,
-      "id": 5
     }
   ]
 }

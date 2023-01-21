@@ -14,7 +14,7 @@ export class ButtonComponent {
     // alert('clickeaste');
     this.btnClick.emit();
 
-    // estp ára mostrar que desde ambos componentes se puede modificar su comportamiento -button-o-header
+    // esto ára mostrar que desde ambos componentes se puede modificar su comportamiento -button-o-header
     // this.color = 'red';
   }
 }

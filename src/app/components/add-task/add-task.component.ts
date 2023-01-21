@@ -3,7 +3,6 @@ import { Subscription } from 'rxjs';
 import { Task } from 'src/app/Task';
 import { UiService } from 'src/app/services/ui.service';
 
-
 @Component({
   selector: 'app-add-task',
   templateUrl: './add-task.component.html',
